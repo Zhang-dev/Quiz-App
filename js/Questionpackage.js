@@ -53,10 +53,6 @@ export default class QuestionPackage {
       const j = Math.floor(Math.random() * (i + 1));
       [new_arr[i], new_arr[j]] = [new_arr[j], new_arr[i]];
     }
-    for (let i = new_arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [new_arr[i], new_arr[j]] = [new_arr[j], new_arr[i]];
-    }
 
     //[3,6,2,1,0,4]
 
